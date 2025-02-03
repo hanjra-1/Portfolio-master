@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import monse from "../../Assets/Projects/monse.png";
-//import emotion from "../../Assets/Projects/emotion.png";
+import weship from "../../Assets/Projects/weship.png";
 import aida from "../../Assets/Projects/aida.png";
 import cover from "../../Assets/Projects/Cover.png";
-//import suicide from "../../Assets/Projects/suicide.png";
+import tesoro from "../../Assets/Projects/tesoro.png";
 import icare from "../../Assets/Projects/icare.png";
 
 function Projects() {
@@ -58,8 +58,25 @@ function Projects() {
               isBlog={false}
               title="english-monseheart"
               description="Used Wordpress elementor to design this website,it is a fully customized theme with css and javascript.For backend i have used php and sql to create database."
-              
               demoLink="https://english-monseheart.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weship}
+              isBlog={false}
+              title="WeShip"
+              description="WeShip.pk is a MERN stack logistics platform for e-commerce, featuring a React.js frontend for real-time shipment tracking and a Node.js/Express.js backend for managing orders and deliveries. MongoDB ensures efficient data storage, while secure authentication and payment integrations enhance reliability. Hosted on cloud infrastructure, it offers a scalable and high-performance solution for e-commerce logistics."
+              demoLink="https://www.weship.pk/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tesoro}
+              isBlog={false}
+              title="tesoro.pk"
+              description="Tesoro.pk is a modern e commerce web application developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js), designed to deliver a seamless user experience. The project features a responsive frontend built with React.js, a robust backend powered by Node.js and Express.js, and a flexible MongoDB database for efficient data management. Key functionalities include user authentication, product management, and payment integration, supported by third-party services.The application was deployed on cloud platforms, ensuring scalability and reliability.API integration, and cloud-based deployment,"
+              demoLink="https://www.tesoro.pk/"
             />
           </Col>
 

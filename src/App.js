@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -31,6 +32,7 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
+      <Container fluid>
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
@@ -43,6 +45,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
+      </Container>
     </Router>
   );
 }
