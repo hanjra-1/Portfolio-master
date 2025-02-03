@@ -2,12 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import monse from "../../Assets/Projects/monse.png";
 import weship from "../../Assets/Projects/weship.png";
 import aida from "../../Assets/Projects/aida.png";
 import cover from "../../Assets/Projects/Cover.png";
 import tesoro from "../../Assets/Projects/tesoro.png";
+import astaaray from "../../Assets/Projects/astaaray.png";
+//Wordpress projects
 import icare from "../../Assets/Projects/icare.png";
+import monse from "../../Assets/Projects/monse.png";
+import voorburgsda from "../../Assets/Projects/voorburgsda.png";
 
 function Projects() {
   return (
@@ -28,20 +31,8 @@ function Projects() {
               title="Ai Based Cover letter Generator"
               description="its an Ai based cover letter generator that is written in python works as a desktop application.it will first take data like experience, skills and duration,then generate a professional cover letter and save in docs file.you can make multiple cover letters."
               ghLink="https://github.com/hanjra-1/cover_letter_generator/"
-  
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={icare}
-              isBlog={false}
-              title="IcaresoIshareintl"
-              description="Fund raising website for cheristian community.This website is designed with Wordpress,fully responsive and atteractive UI.i have also raised $5000+ in its digital marketing compaign in 1 week."
-              demoLink="https://www.icaresoishareintl.com/"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={aida}
@@ -49,16 +40,6 @@ function Projects() {
               title="aidapro.com"
               description="its a company website that i build for my client using React,node js with express and mongo db.Providing great visual experience with Responsive design."
               demoLink="https://aidapro.com/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={monse}
-              isBlog={false}
-              title="english-monseheart"
-              description="Used Wordpress elementor to design this website,it is a fully customized theme with css and javascript.For backend i have used php and sql to create database."
-              demoLink="https://english-monseheart.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -79,8 +60,53 @@ function Projects() {
               demoLink="https://www.tesoro.pk/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={astaaray}
+              isBlog={false}
+              title="astaaray.com"
+              description="Astaaray.com is a modern, React-based e-commerce platform designed for a clothing brand, offering a seamless shopping experience. The website features a dynamic and responsive user interface built with React.js, ensuring smooth navigation and an engaging design. Key functionalities include product browsing, a user-friendly shopping cart, Hosted on cloud platforms, Astaaray.com is optimized for performance, scalability, and reliability, making it a standout online destination for fashion enthusiasts."
+              demoLink="https://www.astaaray.com/"
+            />
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <h1 className="project-heading">
+          My Wordpress <strong className="purple">Works </strong>
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={icare}
+              isBlog={false}
+              title="IcaresoIshareintl"
+              description="Fund raising website for cheristian community.This website is designed with Wordpress,fully responsive and atteractive UI.i have also raised $5000+ in its digital marketing compaign in 1 week."
+              demoLink="https://www.icaresoishareintl.com/"
+            />
+          </Col>
 
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={monse}
+              isBlog={false}
+              title="english-monseheart"
+              description="Used Wordpress elementor to design this website,it is a fully customized theme with css and javascript.For backend i have used php and sql to create database."
+              demoLink="https://english-monseheart.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={voorburgsda}
+              isBlog={false}
+              title="VISDAC"
+              description="Used Wordpress elementor to design this website,it is a fully customized theme with css and javascript.For backend i have used php and sql to create database."
+              demoLink="https://www.voorburgsda.nl/"
+            />
+          </Col>
+                  
         </Row>
       </Container>
     </Container>
