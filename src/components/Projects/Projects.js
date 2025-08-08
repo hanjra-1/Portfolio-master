@@ -106,6 +106,33 @@ function Projects() {
               demoLink="https://www.voorburgsda.nl/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={voorburgsda}
+              isBlog={false}
+              title="VISDAC"
+              description="Used Wordpress elementor to design this website,it is a fully customized theme with css and javascript.For backend i have used php and sql to create database."
+              demoLink="https://www.voorburgsda.nl/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={JAYNEX}
+              isBlog={false}
+              title="JANEXIT"
+              description="Wordpress based website created using elementor,it is a fully customized theme with css and javascript."
+              demoLink="https://jaynexit.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TEMPERTURE}
+              isBlog={false}
+              title="THE TEMPERTURE MEDIA"
+              description="A News agency website crafted on wordpress using the elementor builder.Theme and component was customised with javascript and css."
+              demoLink="https://thetemperaturemedia.com/"
+            />
+          </Col>
                   
         </Row>
       </Container>
