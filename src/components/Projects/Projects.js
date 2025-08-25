@@ -10,7 +10,7 @@ import astaaray from "../../Assets/Projects/astaaray.png";
 //Wordpress projects
 import icare from "../../Assets/Projects/icare.png";
 import monse from "../../Assets/Projects/monse.png";
-import janex from "../../Assets/Projects/JAYNEX.png";
+import jaynex from "../../Assets/Projects/JAYNEX.png";
 import temperature from "../../Assets/Projects/TEMPERATURE.png"
 
 function Projects() {
@@ -118,7 +118,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={janex}
+              imgPath={jaynex}
               isBlog={false}
               title="JANEXIT"
               description="Wordpress based website created using elementor,it is a fully customized theme with css and javascript."
