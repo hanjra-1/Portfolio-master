@@ -10,11 +10,8 @@ import astaaray from "../../Assets/Projects/astaaray.png";
 //Wordpress projects
 import icare from "../../Assets/Projects/icare.png";
 import monse from "../../Assets/Projects/monse.png";
-import voorburgsda from "../../Assets/Projects/voorburgsda.png";
-//import TEMPERATURE from "../../Assets/Projects/TEMPERATURE.png";
-//import JANEX from "../../Assets/Projects/JAYNEX.png";
 import janex from "../../Assets/Projects/JAYNEX.png";
-import temperture from "../../Assets/Projects/JAYNEX.png"
+import temperture from "../../Assets/Projects/TEMPERATURE.png"
 
 function Projects() {
   return (
