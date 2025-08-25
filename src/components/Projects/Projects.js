@@ -12,6 +12,7 @@ import icare from "../../Assets/Projects/icare.png";
 import monse from "../../Assets/Projects/monse.png";
 import jaynex from "../../Assets/Projects/JAYNEX.png";
 import temperature from "../../Assets/Projects/TEMPERATURE.png"
+import voorburgsda from "../../Assets/Projects/voorburgsda.png"
 
 function Projects() {
   return (
@@ -96,15 +97,6 @@ function Projects() {
               title="english-monseheart"
               description="Used Wordpress elementor to design this website,it is a fully customized theme with css and javascript.For backend i have used php and sql to create database."
               demoLink="https://english-monseheart.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={voorburgsda}
-              isBlog={false}
-              title="VISDAC"
-              description="Used Wordpress elementor to design this website,it is a fully customized theme with css and javascript.For backend i have used php and sql to create database."
-              demoLink="https://www.voorburgsda.nl/"
             />
           </Col>
           <Col md={4} className="project-card">
