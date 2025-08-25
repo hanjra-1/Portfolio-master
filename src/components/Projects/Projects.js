@@ -11,6 +11,8 @@ import astaaray from "../../Assets/Projects/astaaray.png";
 import icare from "../../Assets/Projects/icare.png";
 import monse from "../../Assets/Projects/monse.png";
 import voorburgsda from "../../Assets/Projects/voorburgsda.png";
+import voorburgsda from "../../Assets/Projects/TEMPERATURE.png";
+import voorburgsda from "../../Assets/Projects/JAYNEX.png";
 
 function Projects() {
   return (
