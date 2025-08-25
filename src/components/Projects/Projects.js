@@ -11,7 +11,7 @@ import astaaray from "../../Assets/Projects/astaaray.png";
 import icare from "../../Assets/Projects/icare.png";
 import monse from "../../Assets/Projects/monse.png";
 import janex from "../../Assets/Projects/JAYNEX.png";
-import temperture from "../../Assets/Projects/TEMPERATURE.png"
+import temperature from "../../Assets/Projects/TEMPERATURE.png"
 
 function Projects() {
   return (
@@ -127,7 +127,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={temperture}
+              imgPath={temperature}
               isBlog={false}
               title="THE TEMPERTURE MEDIA"
               description="A News agency website crafted on wordpress using the elementor builder.Theme and component was customised with javascript and css."
