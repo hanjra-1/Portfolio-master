@@ -11,8 +11,10 @@ import astaaray from "../../Assets/Projects/astaaray.png";
 import icare from "../../Assets/Projects/icare.png";
 import monse from "../../Assets/Projects/monse.png";
 import voorburgsda from "../../Assets/Projects/voorburgsda.png";
-import TEMPERATURE from "../../Assets/Projects/TEMPERATURE.png";
-import JANEXIT from "../../Assets/Projects/JAYNEX.png";
+//import TEMPERATURE from "../../Assets/Projects/TEMPERATURE.png";
+//import JANEX from "../../Assets/Projects/JAYNEX.png";
+import janex from "../../Assets/Projects/JAYNEX.png";
+import temperture from "../../Assets/Projects/JAYNEX.png"
 
 function Projects() {
   return (
@@ -119,7 +121,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={JANEXIT}
+              imgPath={janex}
               isBlog={false}
               title="JANEXIT"
               description="Wordpress based website created using elementor,it is a fully customized theme with css and javascript."
@@ -128,7 +130,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={TEMPERATURE}
+              imgPath={temperture}
               isBlog={false}
               title="THE TEMPERTURE MEDIA"
               description="A News agency website crafted on wordpress using the elementor builder.Theme and component was customised with javascript and css."
